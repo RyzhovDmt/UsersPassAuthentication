@@ -28,7 +28,6 @@ namespace WindowsFormsApp1
         public void AddUsersToDict()
         {
 
-            //Users = new Dictionary<string, user>();
             string str;
             int space1, space2, space3;
             int spaceCount;

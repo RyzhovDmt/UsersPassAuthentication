@@ -105,7 +105,7 @@ namespace WindowsFormsApp1
 
         private void Decrypt_Click(object sender, EventArgs e)
         {
-            string OutputFName = "";
+
             try
             {
                 if (PassFrase1.Text == PassFrase2.Text)
@@ -179,9 +179,7 @@ namespace WindowsFormsApp1
 
         private void PassFrase1_TextChanged(object sender, EventArgs e)
         {
-            /* есди выбрано имя исходного файла и введена парольная фраза с подтверждением, то кнопки "Зашифровать" и "Расшифровать" доступны */
-            //Encrypt.Enabled = (textBox1.Text.Length > 0) && (PassFrase1.Text.Length > 0) && (textBox1.Text.IndexOf(".enc") == -1);
-            //Decrypt.Enabled = (textBox1.Text.Length > 0) && (PassFrase1.Text.Length > 0) && (textBox1.Text.IndexOf(".enc") != -1);
+
             if (File.Exists("Info.txt"))
             {
                 Encrypt.Enabled = true;

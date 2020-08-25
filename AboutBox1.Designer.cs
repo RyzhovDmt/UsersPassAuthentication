@@ -86,7 +86,7 @@
             this.labelProductName.Name = "labelProductName";
             this.labelProductName.Size = new System.Drawing.Size(326, 17);
             this.labelProductName.TabIndex = 19;
-            this.labelProductName.Text = "Лабораторная №1";
+            this.labelProductName.Text = "Программа разграничения полномочий пользователей";
             this.labelProductName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelVersion
@@ -98,7 +98,7 @@
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(326, 17);
             this.labelVersion.TabIndex = 0;
-            this.labelVersion.Text = "Вариант 34";
+            this.labelVersion.Text = "Версия: 1.4";
             this.labelVersion.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCopyright
@@ -110,7 +110,7 @@
             this.labelCopyright.Name = "labelCopyright";
             this.labelCopyright.Size = new System.Drawing.Size(326, 17);
             this.labelCopyright.TabIndex = 21;
-            this.labelCopyright.Text = "Рыжов Дима";
+            this.labelCopyright.Text = "Автор : Рыжов Дмитрий";
             this.labelCopyright.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // labelCompanyName
@@ -122,7 +122,6 @@
             this.labelCompanyName.Name = "labelCompanyName";
             this.labelCompanyName.Size = new System.Drawing.Size(326, 17);
             this.labelCompanyName.TabIndex = 22;
-            this.labelCompanyName.Text = "А-13-16";
             this.labelCompanyName.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBoxDescription
